@@ -1,0 +1,17 @@
+{
+  "name": "koa-graphql-faker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "mock": "cross-env-shell NODE_ENV=mock yarn start"
+  },
+  "dependencies": {
+    "apollo-server-koa": "^2.9.5",
+    "cross-env": "^6.0.3",
+    "faker": "^4.1.0",
+    "graphql": "^14.5.8",
+    "koa": "^2.8.2"
+  }
+}
